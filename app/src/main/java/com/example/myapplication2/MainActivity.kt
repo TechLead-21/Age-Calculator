@@ -8,23 +8,20 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private EditText editTextYear;
-    private Button buttonConfirm;
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         tvAge.setText("");
 
-
-        editTextYear = findViewById<View>(R.id.etBirth)
-        buttonConfirm = findViewById<View>(R.id.btnGetAge)
+// Validation
+//        val editTextYear = findViewById<View>(R.id.etBirth)
+//        val buttonConfirm = findViewById<View>(R.id.btnGetAge)
 
     }
 
-    public fun calculateAge(view:View){
+    public fun calculateAge(view: View) {
         val dob:String = etBirth.text.toString()
-        val currentYear = Calendar.getInstance().get(Calendar.YEAR)
+        val currentYear= Calendar.getInstance().get(Calendar.YEAR)
         val age = currentYear - dob.toInt()
         tvAge.setText("Your Age is $age")
     }
