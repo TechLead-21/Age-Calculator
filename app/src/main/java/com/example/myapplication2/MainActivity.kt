@@ -8,10 +8,17 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
+    private EditText editTextYear;
+    private Button buttonConfirm;
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         tvAge.setText("");
+
+
+        editTextYear = findViewById<View>(R.id.etBirth)
+        buttonConfirm = findViewById<View>(R.id.btnGetAge)
 
     }
 

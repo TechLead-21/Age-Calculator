@@ -33,21 +33,31 @@
             android:id="@+id/tvAge"
             android:textSize="24sp"
             app:layout_constraintTop_toBottomOf="@+id/etBirth"
-            android:layout_marginTop="200dp"
-            app:layout_constraintHorizontal_bias="0.502" android:textStyle="bold"/>
+            android:layout_marginTop="180dp"
+            app:layout_constraintHorizontal_bias="0.365" android:textStyle="bold"/>
     <Button
             android:text="Get Age"
-            android:layout_width="117dp"
-            android:layout_height="65dp"
+            android:layout_width="107dp"
+            android:layout_height="52dp"
             app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/btnGetAge"
             android:onClick="calculateAge"
+            android:enabled="false"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintTop_toBottomOf="@+id/tvAge"
             app:layout_constraintStart_toEndOf="@+id/tvAge"
             android:background="@color/colorAccent"
             android:textSize="18sp"
             android:textStyle="bold"
-
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.474"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.339"/>
+    <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="44dp"
+            android:id="@+id/switch1"
+            android:
+            android:layout_marginStart="44dp" android:textSize="24sp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
