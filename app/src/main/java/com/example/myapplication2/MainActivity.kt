@@ -1,5 +1,6 @@
 package com.example.myapplication2
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -23,6 +24,15 @@ class MainActivity : AppCompatActivity() {
         val dob:String = etBirth.text.toString()
         val currentYear= Calendar.getInstance().get(Calendar.YEAR)
         val age = currentYear - dob.toInt()
-        tvAge.setText("Your Age is $age")
+
+        if (age in 18..28){
+            tvAge.setText("Work Hard, your Age is $age years")
+            btnGetAge.setBackgroundColor(Color.YELLOW)
+            btnGetAge.setText("clicked")
+        }
+        else{
+            tvAge.setText("You are an awesome $age year(s) old human.")
+        }
+
     }
 }
