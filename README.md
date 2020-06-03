@@ -15,35 +15,35 @@
 
 ## 1. **User defined Function**
    
-    > You can create functions yourself. Such functions are called user-defined functions.
+> You can create functions yourself. Such functions are called user-defined functions.
 
-    ```kotlin
+```kotlin
     public fun calculateAge(view: View){
         // rest of the code
     }
-    ```
+```
 
 <br>
 
 ## 2. **Kotlin Methods**
 
-    >  The getInstance() method in Calendar class is used to get a calendar using the current time zone and locale of the system
+>  The getInstance() method in Calendar class is used to get a calendar using the current time zone and locale of the system
 
-    ```kotlin
+```kotlin
     val currentYear= Calendar.getInstance().get(Calendar.YEAR)
-    ```
+```
 
-    > Returns a string representation of the object. Can be called with a null receiver, in which case it returns the string "null".
+> Returns a string representation of the object. Can be called with a null receiver, in which case it returns the string "null".
 
-    ```kotlin
+```kotlin
     val dob:String = etBirth.text.toString()
-    ```
+```
 
-    > Parses the string as an **Int** number and returns the result.
+> Parses the string as an **Int** number and returns the result.
 
-    ```kotlin
+```kotlin
     val age = currentYear - dob.toInt()
-    ```
+```
 
 ## 3. **Kotlin If else**
 
@@ -72,17 +72,16 @@ else{
     //code
 }
 ```
-
 <br>
 
-### License
+## License
 
-> [MIT](./LICENSE)
+> [**MIT**](./LICENSE)
 
 
-### Social media
+## Social media
 
-💙 [Twitter](https://twitter.com/Developer_Codes)
+💙 [**Twitter**](https://twitter.com/Developer_Codes)
 
 
 ---
