@@ -11,9 +11,9 @@
 
 <br>
 
-## Concepts Used
+# Concepts Used
 
-1. **User defined Function**
+## 1. **User defined Function**
    
     > You can create functions yourself. Such functions are called user-defined functions.
 
@@ -25,7 +25,7 @@
 
 <br>
 
-2. **Kotlin Methods**
+## 2. **Kotlin Methods**
 
     >  The getInstance() method in Calendar class is used to get a calendar using the current time zone and locale of the system
 
@@ -74,3 +74,15 @@ else{
 ```
 
 <br>
+
+### License
+
+> [MIT](./LICENSE)
+
+
+### Social media
+
+💙 [Twitter](https://twitter.com/Developer_Codes)
+
+
+---
